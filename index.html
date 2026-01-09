@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Infosys-CivicPulse-Hub-Unified-Smart-City-Feedback-and-Redressal-System/assets/Logo-DhjiI6xf.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CivicPulse Hub</title>
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem('theme')
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isDark = saved ? saved === 'dark' : prefersDark
+          const html = document.documentElement
+          if (isDark) {
+            html.classList.add('dark')
+            html.style.colorScheme = 'dark'
+          } else {
+            html.classList.remove('dark')
+            html.style.colorScheme = 'light'
+          }
+        } catch (e) {
+          /* no-op */
+        }
+      })()
+    </script>
+    <script type="module" crossorigin src="/Infosys-CivicPulse-Hub-Unified-Smart-City-Feedback-and-Redressal-System/assets/index-CxDw3u51.js"></script>
+    <link rel="stylesheet" crossorigin href="/Infosys-CivicPulse-Hub-Unified-Smart-City-Feedback-and-Redressal-System/assets/index-CObJ4JSr.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
